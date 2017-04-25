@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wxmall-web-mobile:war">
+    <output-path>$PROJECT_DIR$/wxmall-web-mobile/target</output-path>
+    <root id="archive" name="wxmall-web-mobile.war">
+      <element id="artifact" artifact-name="wxmall-web-mobile:war exploded" />
+    </root>
+  </artifact>
+</component>

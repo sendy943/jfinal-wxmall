@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/weixin-sdk/weixin-sdk.iml" filepath="$PROJECT_DIR$/weixin-sdk/weixin-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxmall.iml" filepath="$PROJECT_DIR$/wxmall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxmall-model/wxmall-model.iml" filepath="$PROJECT_DIR$/wxmall-model/wxmall-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxmall-service-api/wxmall-service-api.iml" filepath="$PROJECT_DIR$/wxmall-service-api/wxmall-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxmall-service-common/wxmall-service-common.iml" filepath="$PROJECT_DIR$/wxmall-service-common/wxmall-service-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxmall-service-provider/wxmall-service-provider.iml" filepath="$PROJECT_DIR$/wxmall-service-provider/wxmall-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxmall-web-admin/wxmall-web-admin.iml" filepath="$PROJECT_DIR$/wxmall-web-admin/wxmall-web-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxmall-web-mobile/wxmall-web-mobile.iml" filepath="$PROJECT_DIR$/wxmall-web-mobile/wxmall-web-mobile.iml" />
+    </modules>
+  </component>
+</project>

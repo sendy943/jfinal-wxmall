@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="weixin-sdk" />
+        <module name="wxmall-model" />
+        <module name="wxmall-service-api" />
+        <module name="wxmall-service-common" />
+        <module name="wxmall-service-provider" />
+        <module name="wxmall-web-admin" />
+        <module name="wxmall-web-mobile" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="weixin-sdk" target="1.7" />
+      <module name="wxmall" target="1.7" />
+      <module name="wxmall-model" target="1.7" />
+      <module name="wxmall-service-api" target="1.7" />
+      <module name="wxmall-service-common" target="1.7" />
+      <module name="wxmall-service-provider" target="1.7" />
+      <module name="wxmall-web-admin" target="1.7" />
+      <module name="wxmall-web-mobile" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
