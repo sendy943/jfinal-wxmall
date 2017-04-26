@@ -218,7 +218,7 @@ a:focus{
 	box-sizing: border-box;
 	font-size: 1.4rem;
 	padding: .5rem 0 .5rem .5rem;
-	background-color: #5A9295;
+	background-color: red;
 }
 .sales-info .privilege-wrap{
 	height: 5rem;
@@ -321,11 +321,12 @@ a:focus{
 .content .shopping-title .edit{
 	position: absolute;
 	top: 0;
-	right: .6em;
+	right: 30em;
 }
 .shopping-title {
 	height: 5rem;
 	line-height: 5rem;
+	background-color: #f7f7fa;
 }
 .shopping-title > span{
 	margin-left: 2rem;
@@ -387,7 +388,7 @@ a:focus{
 	font-size: 15px;
 }
 .goods-info .total-btn{
-	position: absolute;
+	/* position: absolute; */
 	right: 25px;
 	width: 100px;
 	height: 40px;

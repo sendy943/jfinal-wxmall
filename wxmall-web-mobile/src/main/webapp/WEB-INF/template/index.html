@@ -11,7 +11,7 @@
 			<div class="swiper-container" data-space-between='10' data-pagination='.swiper-pagination' data-autoplay="1000">
 				<div class="swiper-wrapper">
 					[#if shop?? && shop.shop_sign??]
-					<div class="swiper-slide"><a href="${webctx}/product"><img style="height: 150px;" src="${img_domain}${shop.shop_sign}" alt=""></a></div>
+					<div class="swiper-slide"><a href="${webctx}/product"><img style="height: 200px;" src="${img_domain}${shop.shop_sign}" alt=""></a></div>
 					[/#if]
 				</div>
 			</div>
@@ -19,15 +19,12 @@
 			[#if productCategory?? && productCategory?size>0]
 			<div class="weui-cells__title">商品分类</div>
 			<div class="weui-cells" style="font-size: 14px;">
+				<div class="weui-type-12 weui-cell weui-cell_access">
 				[#list productCategory as cate]
-				<div class="weui-cell weui-cell_access">
-		            <div class="weui-cell__hd"><a href="${webctx}/product?categId=${cate.id}"><img src="${img_domain}${cate.img_path}" alt="" style="height:20px;width:20px;margin-right:5px;display:block"></a></div>
-		            <div class="weui-cell__bd">
-		              <p></p>
-		            </div>
-		            <div class="weui-cell__ft"><a href="${webctx}/product?categId=${cate.id}">${cate.name}</a></div>
-		          </div>			
+		            <div class="weui-type-3 weui-cell__hd"><div align="center"><a href="${webctx}/product?categId=${cate.id}"><img src="${img_domain}${cate.img_path}" alt="" style="height:50px;width:50px;margin-right:10px;display:block"></a>
+		        </div> <div align="center"> <font color="gray" size="1">  ${cate.name}</font></div></a></div>
 				[/#list]
+		          </div>			
 	        </div>
 	        [/#if]
 			
@@ -60,7 +57,7 @@
 				<div class="weui-tab__bd">
 					<div id="item-1" class="weui-row weui-no-gutter custom weui-tab__bd-item weui-tab__bd-item--active">
 						[#list hotProducts as product]
-						<a class="weui-col-33 custom-padding" href="${ctxPath}/product/detail?id=${product.id}">
+						<a class="weui-col-33 custom-padding" href="${webctx}/product/detail?id=${product.id}">
 							<img src="${product.mainPic}"/>
 							<div class="describe">${product.name}</div>
 							<div class="price">${product.price}</div>
@@ -69,7 +66,7 @@
 					</div>
 					<div id="item-2" class="weui-row weui-no-gutter custom weui-tab__bd-item">
 						[#list newProducts as product]
-						<a class="weui-col-33 custom-padding" href="${ctxPath}/product/detail?id=${product.id}">
+						<a class="weui-col-33 custom-padding" href="${webctx}/product/detail?id=${product.id}">
 							<img src="${product.mainPic}"/>
 							<div class="describe">${product.name}</div>
 							<div class="price">${product.price}</div>
@@ -78,7 +75,7 @@
 					</div>
 					<div id="item-3" class="weui-row weui-no-gutter custom weui-tab__bd-item">
 						[#list commondProducts as product]
-						<a class="weui-col-33 custom-padding" href="${ctxPath}/product/detail?id=${product.id}">
+						<a class="weui-col-33 custom-padding" href="${webctx}/product/detail?id=${product.id}">
 							<img src="${product.mainPic}"/>
 							<div class="describe">${product.name}</div>
 							<div class="price">${product.price}</div>
@@ -93,7 +90,7 @@
 			<div class="main-goods">
 				[#list indexProducts as product]
 				<div class="item">
-					<a href="${ctxPath}/product/detail?id=${product.id}">
+					<a href="${webctx}/product/detail?id=${product.id}">
 					<img src="${product.mainPic}" style="width: 100%"/>
 					<div class="goods-particulars">
 						<!-- <img class="logo" src="${ctxPath}/jqweui/images/logo-3.jpg"/> -->

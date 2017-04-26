@@ -503,7 +503,10 @@ public class OrderServiceImpl extends AbstractServiceImpl implements OrderServic
 	
 	@Override
 	public OrderResultDto balance(Long buyerId, Long receiverId, String items) throws OrderException {
-		return null;
+		OrderResultDto orderResultDto =  new OrderResultDto();
+		orderResultDto.setTotalPrice(new BigDecimal("120"));
+		orderResultDto.setPayFee(new BigDecimal("120"));
+		return orderResultDto;
 	}
 	
 	public Boolean isReviewed(Long buyerId, Long orderId, Long productId) throws OrderException {
