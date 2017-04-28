@@ -388,7 +388,7 @@ a:focus{
 	font-size: 15px;
 }
 .goods-info .total-btn{
-	/* position: absolute; */
+	position: absolute;
 	right: 25px;
 	width: 100px;
 	height: 40px;
