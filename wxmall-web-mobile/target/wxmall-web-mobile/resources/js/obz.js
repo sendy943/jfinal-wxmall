@@ -114,7 +114,8 @@ obz.ajaxJson = function(url, param, callback, failureCallback) {
             		if(request.response){
             			alert(request.response);
             		}else{
-            			alert("服务端没有响应,请联系客服......");
+            			console.log(url);
+            			//alert("服务端没有响应,请联系客服......");
             		}
             		location.href = obz.ctx;
             	}

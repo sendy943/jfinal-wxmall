@@ -35,7 +35,7 @@ public class RetryUtils {
 			} catch (Exception e) {
 				log.warn("retry on " + (i + 1) + " times v = " + (v == null ? null : v.getJson()) , e);
 			}
-			if (v.matching()) break;
+			if (v!=null && v.matching()) break;
 			log.error("retry on " + (i + 1) + " times but not matching v = " + (v == null ? null : v.getJson()));
 		}
 		return v;

@@ -52,6 +52,9 @@ public class ProductController extends AdminBaseController<Product> {
 	public void warehouseIndex() {
 		render("pd_warehouse.html");
 	}
+	public void productFromBoss(){
+		render("pd_boss.html");
+	}
 	
 	public void warehouse(){
 		List<Object> params = new ArrayList<Object>();

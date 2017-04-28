@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>XXX微商平台 -- 登陆</title>
+<title>乐宝宝微商平台 -- 登陆</title>
 <%-- <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/assets/ico/favicon.ico" type="image/x-icon" /> --%>    
 <!-- Css files -->
 <link href="${pageContext.request.contextPath}/resources/assets/css/bootstrap.min.css?v=3.3.6" rel="stylesheet"/>		
@@ -20,7 +20,7 @@
         <div>
             <h1 class="logo-name"><img width="100" height="80" src="${pageContext.request.contextPath}/resources/images/dianbuLogo.png" alt="" /></h1>
         </div>
-        <h3>欢迎使用XXX微商城平台</h3>
+        <h3>欢迎使用乐宝宝微商城平台</h3>
 
         <form class="m-t" role="form" action="index.html">
             <div class="form-group">
